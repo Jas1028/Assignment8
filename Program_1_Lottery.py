@@ -42,4 +42,15 @@ def LotteryGame():
         # Display ”You loss” if not
             if GuessNumberList != ValueList:
                 print(">> You didn't get all winning numbers. You loss.")
+
+        # Display ”Try again y/n” after each game
+        GamePlay = input(f"\n{PlayerName}, You want to try again? (y/n): ")
+        # If the user enter “y” the user will play again
+        if GamePlay == "y":
+            print("\n**Next Game**")
+        # if “n” the program will exit.
+        else:
+            if GamePlay == "n":
+                print(f"\nThanks for your time to play " + PlayerName +". Hope you enjoy JC Lottery Game.\n")
+                exit
 LotteryGame()
