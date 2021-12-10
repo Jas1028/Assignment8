@@ -53,5 +53,6 @@ def LotteryGame():
             if GamePlay == "n":
                 print(f"\nThanks for your time to play " + PlayerName +". Hope you enjoy JC Lottery Game.\n")
                 exit
-        return FirstValue, SecondValue, ThirdValue, PlayerName
+    return FirstValue, SecondValue, ThirdValue, PlayerName
+    
 LotteryGame()
