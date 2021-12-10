@@ -51,6 +51,7 @@ def GuessNumber():
             if GamePlay != 'y':
                 print(f"\nThanks {PlayerName} for playing JC Guess the Number Game. Hope you enjoy!\n ")
                 exit
+                
 GuessNumber()
 
 
