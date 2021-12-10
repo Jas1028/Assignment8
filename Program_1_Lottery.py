@@ -15,5 +15,9 @@ def LotteryGame():
         print("\nGame Started. Goodluck!")
         print("\nHello, Please enter your name: ")
         PlayerName = input()
-        
+        print("\nGood day "  + PlayerName + ". Welcome to JC Lottery Game.\n\n>>> Choose your three lucky numbers in between of 0 and 9.")
+        # Create a program that ask 3 numbers (0-9) from the user.
+        NumberOne = int(input("\nType your first lucky number (0-9):\n\n"))
+        NumberTwo = int(input("\nType your second lucky number (0-9):\n\n"))
+        NumberThree = int(input("\nType your third lucky number (0-9):\n\n"))
 LotteryGame()
